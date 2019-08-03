@@ -1,0 +1,69 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx45b6f0e5dc4a2c26",
+	"projectname": "cls_vc_wx",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "分享头选",
+					"pathName": "pages/touxuan-detail/main",
+					"query": "user_id=1003004&txuanId=4",
+					"scene": 1011
+				},
+				{
+					"id": 1,
+					"name": "分享邀请-扫码邀请会员",
+					"pathName": "pages/black-card-member/main",
+					"query": "user_id=1003007",
+					"scene": 1011
+				},
+				{
+					"id": 2,
+					"name": "分享头选 剑铭的userId",
+					"pathName": "pages/touxuan-detail/main",
+					"query": "scene=user_id%3D1000010%26txuanId%3D2",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "用户中心",
+					"pathName": "pages/user-center/main",
+					"query": "user_id=1000034",
+					"scene": null
+				}
+			]
+		}
+	}
+}

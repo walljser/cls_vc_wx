@@ -1,0 +1,6 @@
+[submodule "src/pages/share-new/static/painter"]
+	path = src/pages/share-new/static/painter
+	url = https://github.com/Kujiale-Mobile/PainterCore.git
+[submodule "static/painter"]
+	path = static/painter
+	url = https://github.com/Kujiale-Mobile/PainterCore.git

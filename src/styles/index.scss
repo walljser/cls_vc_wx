@@ -1,0 +1,53 @@
+@import './normal.scss';
+
+.voice {
+  &-wrap {
+    margin-top: 150rpx;
+    position: relative;
+  }
+
+  &-round {
+    width: 400rpx;
+    height: 400rpx;
+    display: inline-block;
+    position: absolute;
+    right: 15%
+  }
+
+  &-zheng {
+    position: absolute;
+    left: 15%;
+    width: 400rpx;
+    height: 400rpx;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.25);
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 50rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.icon {
+  &-left {
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &-right {
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
